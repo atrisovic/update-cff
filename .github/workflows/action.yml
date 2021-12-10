@@ -1,0 +1,13 @@
+name: Update CFF 
+
+on: 
+  release:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update CFF 
+        uses: atrisovic/update-cff@master
+          
